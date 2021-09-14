@@ -18,10 +18,10 @@ h1 {
 }
 #todo {
     padding: 5px;
-    width: 98%;
+    width: 80%;
 }
 .todo-counter {
-    background-color: gray;
+    background-color: palegreen;
     width: 100%;
 }
 .todo-counter ul {
@@ -31,4 +31,14 @@ h1 {
 }
 .todo-counter ul li {
     display: inline;
+}
+label {
+    font-family: 'Coming Soon', cursive;
+    font-size: 1.25em;
+}
+#submit {
+    padding: 5.5px;
+    border: none;
+    border-radius: 5px;
+    background-color: palegreen;
 }
