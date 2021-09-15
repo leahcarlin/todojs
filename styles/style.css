@@ -32,7 +32,13 @@ h1 {
 .todo-counter ul li {
     display: inline;
 }
-label {
+.todo-list {
+    font-family: 'Coming Soon', cursive;
+    font-size: 1.25em;
+}
+.todo-list-completed {
+    text-decoration: line-through;
+    color: lightgray;
     font-family: 'Coming Soon', cursive;
     font-size: 1.25em;
 }
@@ -41,4 +47,7 @@ label {
     border: none;
     border-radius: 5px;
     background-color: palegreen;
+}
+li {
+    padding-right: 20px;
 }
