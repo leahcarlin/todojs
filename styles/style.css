@@ -32,16 +32,15 @@ h1 {
 .todo-counter ul li {
     display: inline;
 }
-.todo-list {
-    font-family: 'Coming Soon', cursive;
-    font-size: 1.25em;
-}
-.todo-list-completed {
+input[type=checkbox]:checked + label {
+    color:lightgray;
     text-decoration: line-through;
-    color: lightgray;
+}
+.checkbox-label {
     font-family: 'Coming Soon', cursive;
     font-size: 1.25em;
 }
+
 #submit {
     padding: 5.5px;
     border: none;
